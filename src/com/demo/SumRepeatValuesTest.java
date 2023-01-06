@@ -1,5 +1,10 @@
 package com.demo;
 
+/**
+ * Created by IntelliJ IDEA.
+ * @author: Dareo_Gu
+ * @Created: 2023/1/6 23:00
+ */
 public class SumRepeatValuesTest {
   public static int repeatNumValue(int number, int count) {
     if (count == 1) {
