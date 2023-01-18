@@ -25,5 +25,12 @@ public class Interview_4_SplitStringTest {
       s = s + "00000000";
       System.out.println(s.substring(0, 8));
     }
+    //第二种简单方法，反向思维，首先判断是否需要补0，然后直接一个方法搞定
+//    if (s.length() % 8 != 0) {
+//      s = s + "00000000";
+//    }
+//    for (int i = 0, j = 0; i < s.length() / 8; i++, j += 8) {
+//      System.out.println(s.substring(j, j + 8));
+//    }
   }
 }

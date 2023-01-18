@@ -16,6 +16,8 @@ public class Interview_6_DecomposeTest {
       sc.close();
       return;
     }
+    decomposeValue(value);
+    System.out.println();
     String result = decompose(value);
     System.out.println(result);
     sc.close();
@@ -38,6 +40,21 @@ public class Interview_6_DecomposeTest {
       }
     }
     return str.toString();
+  }
 
+  public static void decomposeValue(long dataInput) {
+    int index = 2;
+    while (index <= dataInput) {
+      if (dataInput % index == 0) {
+        System.out.print(index);
+        if (dataInput == index) {
+          break;
+        }
+        dataInput = dataInput / index;
+        System.out.print("*");
+      } else {
+        index++;
+      }
+    }
   }
 }
