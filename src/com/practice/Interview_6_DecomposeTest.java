@@ -42,6 +42,7 @@ public class Interview_6_DecomposeTest {
     return str.toString();
   }
 
+  //# Solution 2
   public static void decomposeValue(long dataInput) {
     int index = 2;
     while (index <= dataInput) {
