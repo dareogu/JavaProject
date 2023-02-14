@@ -25,7 +25,7 @@ public class PrimeGetTest {
           break;    //可以整除就跳出这个循环
         }
       }
-      if (b == true)//
+      if (b)//
       {
         v.add(i);//将符合要求的i加到集合里
         x++; // 素数个数加1
