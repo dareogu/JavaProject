@@ -19,7 +19,7 @@ public class ArrayMergeTest {
         c[k] = a[i];
         i++;
       } else {
-        c[k] = b[i];
+        c[k] = b[j];
         j++;
       }
       k++;
@@ -27,7 +27,7 @@ public class ArrayMergeTest {
     if (i < a.length) {
       System.arraycopy(a, i, c, k, a.length - i);
     }
-    if (i < b.length) {
+    if (j < b.length) {
       System.arraycopy(b, j, c, k, b.length - j);
     }
     System.out.println(Arrays.toString(c));
