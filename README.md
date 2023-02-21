@@ -8,7 +8,8 @@ https://www.nowcoder.com/paper/list?multiTagIds=239
 https://github.com/waylau/nowcoder-exam-oj
 
 
-关注以下问题：
+
+Focus on  -> 
 
 1.背包问题（动态规划）
 
