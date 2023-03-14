@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @Create: 2023-01-14 23:51
  * 需求：写出一个程序，接受一个十六进制的数，输出该数值的十进制表示。（多组同时输入 ）
  **/
-public class Interview_5_DecimalConversionTest {
+public class HJ5_S_DecimalConversionTest {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

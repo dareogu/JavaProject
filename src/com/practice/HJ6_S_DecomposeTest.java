@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @Create: 2023-01-15 00:43
  * 需求:输入一个正整数，按照从小到大的顺序输出它的所有质因子（如180的质因子为 2 2 3 3 5），最后一个数后面也要有空格
  **/
-public class Interview_6_DecomposeTest {
+public class HJ6_S_DecomposeTest {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

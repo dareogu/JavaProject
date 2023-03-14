@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @Create: 2023-01-12 17:48
  * 写出一个程序，接受一个由字母和数字组成的字符串，和一个字符，然后输出输入字符串中含有该字符的个数,不区分大小写。
  **/
-public class Interview_2_CharCountTest {
+public class HJ2_S_CharCountTest {
   public static void main(String[] args) {
     String inputString = inputString();
     System.out.println("请输入一个字符：");

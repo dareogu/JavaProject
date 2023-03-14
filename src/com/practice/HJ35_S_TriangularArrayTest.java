@@ -1,4 +1,4 @@
-package com.demo;
+package com.practice;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 7 12
  * 11
  **/
-public class TriangularArrayTest {
+public class HJ35_S_TriangularArrayTest {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     while (in.hasNext()) {

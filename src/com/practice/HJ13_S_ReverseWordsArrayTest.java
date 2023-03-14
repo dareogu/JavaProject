@@ -16,7 +16,7 @@ import java.util.Scanner;
  * 输入：I am a boy
  * 输出：boy a am I
  **/
-public class Interview_12_ReverseTest {
+public class HJ13_S_ReverseWordsArrayTest {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     String str = scan.nextLine();

@@ -37,22 +37,17 @@ import java.util.*;
  * two
  * up
  */
-public class Interview_13_DictSortTest {
+public class HJ14_S_StringSortTest {
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     List<String> list = new ArrayList<>();
-    Set<String> set = new TreeSet<>();  //#Solution 2
     int num = scan.hasNextLine() ? Integer.parseInt(scan.nextLine()) : 0;
     while (--num >= 0 && scan.hasNextLine()) {
       String s = scan.nextLine();
       list.add(s);
-      //#Solution 2
-      set.add(s);
     }
     Collections.sort(list);
     list.forEach(str -> System.out.println(str));
-    System.out.println("***********************************");
-    set.forEach(str -> System.out.println(str));
   }
 }

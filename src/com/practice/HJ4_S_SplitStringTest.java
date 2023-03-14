@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @Create: 2023-01-14 17:51
  * 需求：连续输入字符串，请按长度为8拆分每个字符串后输出到新的字符串数组；长度不是8整数倍的字符串请在后面补数字0，空字符串不处理
  **/
-public class Interview_4_SplitStringTest {
+public class HJ4_S_SplitStringTest {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     while (scanner.hasNextLine()) {

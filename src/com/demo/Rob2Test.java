@@ -1,4 +1,4 @@
-package com.practice;
+package com.demo;
 
 /**
  * @Auther Dareo Gu

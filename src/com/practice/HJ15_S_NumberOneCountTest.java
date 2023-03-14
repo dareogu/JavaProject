@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 输入：5
  * 输出：2
  **/
-public class Interview_14_NumberCountTest {
+public class HJ15_S_NumberOneCountTest {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 输入： hello world
  * 输出：5
  **/
-public class Interview_1_StringLengthTest {
+public class HJ1_S_StringLengthTest {
 
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);

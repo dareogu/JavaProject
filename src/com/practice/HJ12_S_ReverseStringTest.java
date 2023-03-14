@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <p>
  * 需求：写出一个程序，接受一个字符串，然后输出该字符串反转后的字符串。（字符串长度不超过1000）
  **/
-public class Interview_11_ReverseTest {
+public class HJ12_S_ReverseStringTest {
 
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);

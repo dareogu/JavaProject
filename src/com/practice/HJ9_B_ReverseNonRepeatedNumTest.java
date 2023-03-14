@@ -9,7 +9,7 @@ import java.util.Set;
  * @Create: 2023-01-24 17:44
  * 需求：输入一个int型整数，按照从右向左的阅读顺序，返回一个不含重复数字的新的整数
  **/
-public class Interview_8_ReverseTest {
+public class HJ9_B_ReverseNonRepeatedNumTest {
 
   public static void main(String[] args) {
     @SuppressWarnings("resource")
