@@ -1,11 +1,11 @@
-package com.practice;
+package com.demo;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+public class StringEncryptionTest {
   static Map<Character, Character> map = new HashMap<>();
 
   static {

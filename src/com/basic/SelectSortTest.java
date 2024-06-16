@@ -1,6 +1,6 @@
 package com.basic;
 
-public class SelectionSortTest {
+public class SelectSortTest {
   public static void main(String[] args) {
     String names[] = {"my", "world", "glb", "what", "are", "you", "doing"};
     // 动态赋值

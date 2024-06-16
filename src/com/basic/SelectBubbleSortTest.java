@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author Dareo_Gu
  */
-public class SortCollectionTest {
+public class SelectBubbleSortTest {
   public static void main(String[] args) {
     int[] array = {3, 5, 1, 8, 9, 6, 33, 44, 4, 10, 25, 12, 4, 11};
     selectSort(array);

@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class HashMap_UserTest {
+public class MapUserTest {
   public static void main(String[] args) {
     //创建hashmap对象
     HashMap<Integer, User> hm = new HashMap<Integer, User>();

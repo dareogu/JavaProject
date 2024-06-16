@@ -23,5 +23,9 @@ public class StringTest {
 
     String[] ch = str.split("1");
     System.out.println(Arrays.toString(ch));
+
+    String d = "{\\\"id\\\":\\\"cust_autoPLT123461680Def\\\"}";
+    String e = d.replace("\\", "");
+    System.out.println(e);
   }
 }

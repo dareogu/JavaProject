@@ -1,6 +1,6 @@
 package com.basic;
 
-public class RandomTest {
+public class MathRandomTest {
 
   private static boolean flag = true;
 
@@ -14,5 +14,9 @@ public class RandomTest {
         flag = false;
       }
     }
+
+    float f = (float) Math.random();
+    String s = Float.toString(f);
+    System.out.println(s);
   }
 }

@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class HashMap_StudentTest {
+public class MapStudentTest {
   public static void main(String[] args) {
     HashMap<Integer, Student> stud = new HashMap<>();
     stud.put(1, new Student("晓红", 18, 91.0f));
@@ -17,12 +17,12 @@ public class HashMap_StudentTest {
 
     System.out.println(stud.containsKey(6));
 
-    Set<Map.Entry<Integer, Student>> studentry = stud.entrySet();
-    Iterator<Map.Entry<Integer, Student>> studite = studentry.iterator();
-    while (studite.hasNext()) {
-      Map.Entry<Integer, Student> studnext = studite.next();
-      System.out.println(studnext.getKey() + "," + studnext.getValue().getName() + "," + studnext.getValue().getAge()
-          + "," + Student.scoreCal(studnext.getValue().getScore()));
+    Set<Map.Entry<Integer, Student>> studEntry = stud.entrySet();
+    Iterator<Map.Entry<Integer, Student>> studIte = studEntry.iterator();
+    while (studIte.hasNext()) {
+      Map.Entry<Integer, Student> studNext = studIte.next();
+      System.out.println(studNext.getKey() + "," + studNext.getValue().getName() + "," + studNext.getValue().getAge()
+          + "," + Student.scoreCal(studNext.getValue().getScore()));
     }
   }
 

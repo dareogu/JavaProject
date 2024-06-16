@@ -31,8 +31,10 @@ public class HJ56_S_PerfectNumberTest {
           if (t % i == 0)
             sum += i;
         }
-        if (sum == t)
+        if (sum == t) {
+          System.out.println(t);
           count++;
+        }
       }
 
       //输出结果
