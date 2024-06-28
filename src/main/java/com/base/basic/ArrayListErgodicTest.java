@@ -6,28 +6,28 @@ import java.util.List;
 
 public class ArrayListErgodicTest {
   public static void main(String[] args) {
-    //¼¯ºÏ¶ÔÏó
+    //é›†åˆå¯¹è±¡
     List<String> elementList = new ArrayList<>();
 
-    //Ìí¼ÓÔªËØ
-    elementList.add("ÎÒÊÇÒ»¸ö³¬ÈË");
-    elementList.add("½ñÌìÊÇÒ»¸öºÃÌìÆø");
+    //æ·»åŠ å…ƒç´ 
+    elementList.add("æˆ‘æ˜¯ä¸€ä¸ªè¶…äºº");
+    elementList.add("ä»Šå¤©æ˜¯ä¸€ä¸ªå¥½å¤©æ°”");
     elementList.add("Hello world!");
-    elementList.add("¾ÅÔÂÓë°²Éú");
+    elementList.add("ä¹æœˆä¸å®‰ç”Ÿ");
 
-    //µÚÒ»ÖÖ±éÀú·½Ê½
+    //ç¬¬ä¸€ç§éå†æ–¹å¼
     for (int i = 0; i < elementList.size(); i++) {
       String array = elementList.get(i);
       System.out.println(array);
     }
 
     System.out.println("====================================");
-    elementList.remove(2); //É¾³ıµÚÈı¸öÎ»ÖÃµÄString¶ÔÏó
+    elementList.remove(2); //åˆ é™¤ç¬¬ä¸‰ä¸ªä½ç½®çš„Stringå¯¹è±¡
 
-    //²ÉÓÃµü´úÆ÷½øĞĞ±éÀú
-    for (Iterator<String> it = elementList.iterator(); it.hasNext(); )//ÅĞ¶ÏÊÇ·ñÓĞÏÂÒ»¸öÔªËØ
+    //é‡‡ç”¨è¿­ä»£å™¨è¿›è¡Œéå†
+    for (Iterator<String> it = elementList.iterator(); it.hasNext(); )//åˆ¤æ–­æ˜¯å¦æœ‰ä¸‹ä¸€ä¸ªå…ƒç´ 
     {
-      String str = it.next(); //»ñÈ¡ÏÂÒ»¸öÔªËØµÄÖµ
+      String str = it.next(); //è·å–ä¸‹ä¸€ä¸ªå…ƒç´ çš„å€¼
       System.out.println(str);
     }
 
@@ -35,7 +35,7 @@ public class ArrayListErgodicTest {
     elementList.add("null");
     System.out.println("====================================");
 
-    //µÚÈıÖÖ±éÀú·½Ê½
+    //ç¬¬ä¸‰ç§éå†æ–¹å¼
     Iterator<String> it2 = elementList.iterator();
     while (it2.hasNext()) {
       String str2 = it2.next();

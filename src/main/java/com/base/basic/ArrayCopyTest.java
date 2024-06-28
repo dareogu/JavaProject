@@ -7,14 +7,14 @@ public class ArrayCopyTest {
     int array1[] = {1, 4, 51, 6, 30, 44, 2, 21, 56};
     int array2[] = {20, 3, 21, 5, 8, 7, 19};
 
-    //´ÓsourceË÷ÒıÎ»ÖÃ0¿ªÊ¼µÄ3¸öÊı×Ö¿½±´µ½destË÷ÒıÎª2µÄÎ»ÖÃÉÏ
+    //ä»sourceç´¢å¼•ä½ç½®0å¼€å§‹çš„3ä¸ªæ•°å­—æ‹·è´åˆ°destç´¢å¼•ä¸º2çš„ä½ç½®ä¸Š
     System.arraycopy(array1, 0, array2, 2, 3);
     for (int element : array2) {
       System.out.println(element + ",");
     }
     System.out.println(Arrays.toString(array2));
 
-    int[] array3 = Arrays.copyOf(array1, 6); //ÁíÍâÒ»¸öcopyÊı×éµÄ·½·¨
+    int[] array3 = Arrays.copyOf(array1, 6); //å¦å¤–ä¸€ä¸ªcopyæ•°ç»„çš„æ–¹æ³•
     System.out.println(Arrays.toString(array3));
   }
 }

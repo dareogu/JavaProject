@@ -7,8 +7,8 @@ import java.util.Map;
  * @Auther Dareo Gu
  * @Create: 2024-06-16 11:46
  * <p>
- * put·½·¨·µ»ØÖµÎªnull»òÕßvalue£»
- * Èç¹ûkeyÃ»ÓĞÖØ¸´£¬put³É¹¦£¬Ôò·µ»Ønull£¬Èçp1¡¢p2£»
+ * putæ–¹æ³•è¿”å›å€¼ä¸ºnullæˆ–è€…valueï¼›
+ * å¦‚æœkeyæ²¡æœ‰é‡å¤ï¼ŒputæˆåŠŸï¼Œåˆ™è¿”å›nullï¼Œå¦‚p1ã€p2ï¼›
  **/
 public class MapPutTest {
 
